@@ -1,0 +1,25 @@
+.exemplo{
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+
+
+main{
+    display: flex;
+    padding-left: 50px;
+}
+
+.dicas{
+    padding-left: 30px;
+}
+
+h2{
+   padding-left: 20px;
+   font-size: 40px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 2.0;
+}

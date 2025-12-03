@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 30px;
+}
+
+
+input::placeholder{
+    color: #ffffff;
+}
+
+.mensagem{
+    padding-bottom: 100px;
+
+}
+
+input{
+    background-color: black;
+    color: #BFBDBD;
+    border-radius: 12px;
+    padding: 20px 10px;
+    width: 600px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao:hover {
+    background: #ffffff; 
+    transform: scale(1.01); 
+    color: black;
+}
+
+.botao{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 450px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Bakbak One", sans-serif;
+    margin: 20px;
+    cursor: pointer;
+}

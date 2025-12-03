@@ -1,0 +1,42 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 800px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Bakbak One", sans-serif;
+   cursor: pointer;
+}
+
+p{
+    font-size: 30px;
+    max-width: 900px;
+    font-family: "Bentham", serif;
+}
+
+.duas{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+  
+}
+
+
+
+
+

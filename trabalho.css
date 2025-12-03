@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bentham&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Bentham&display=swap');
+
+body{
+    background-image: url(textura\ fundo.jpg);
+}
+
+h1{
+    color: black;
+    font-size: 70px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    padding-left: 30%;
+    justify-content: space-between;
+
+}
+
+header div{
+display: flex;
+flex-direction: column;
+
+}
+
+.ilustraçao{
+    border-radius: 20px;
+    width: 700px;
+    height: 400px;
+    padding-right: 10%;
+}
+
+.cabeçalho{
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+    gap: 36px;
+    margin-top: 60px;
+    font-size: 30px;
+
+}
+
+
+
+.icone{
+width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.paragrafo{
+    font-size: 30px;
+    max-width: 900px;
+    padding-left: 5%;
+    font-family: "Bentham", serif;
+
+}
+
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registros{
+
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-top: 60px;
+   width: 200px;
+   padding-left: 5%;
+   
+}
+
+.nu1{
+    color: white;
+    background-color: black;
+    border-radius: 12px;
+    padding: 20px 10px;
+    width: 600px;
+    font-family: "Bakbak One", sans-serif;
+    
+}
+
+.nu1::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.botao{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Bakbak One", sans-serif;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.atual{
+    border-bottom: 2px solid black;
+}
+
